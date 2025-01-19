@@ -139,4 +139,6 @@ echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000
 echo -e "${GREEN}=================== Informasi: Whatsapp 0812-8567-6444 +====================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 cd
-unzip multitab.zip -d /usr/lib/node_modules/
+apt install unzip
+cd
+unzip multitab -d /usr/lib/node_modules/
