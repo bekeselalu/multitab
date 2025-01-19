@@ -136,7 +136,7 @@ sudo mongodump --db=genieacs --out genieacs-backup
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}================== VIRTUAL PARAMETER BERHASIL DI INSTALL ===================${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
-echo -e "${GREEN}=================== Informasi: Whatsapp 081-947-215-703 ====================${NC}"
+echo -e "${GREEN}=================== Informasi: Whatsapp 0812-8567-6444 +====================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 cd
 unzip multitab.zip -d /usr/lib/node_modules/
