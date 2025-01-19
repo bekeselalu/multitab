@@ -22,7 +22,7 @@ read confirmation
 
 if [ "$confirmation" != "y" ]; then
     echo -e "${GREEN}Install dibatalkan..${NC}"
-    sudo rm /tmp/install.sh
+    sudo /tmp/install.sh
     exit 1
 fi
 for ((i = 5; i >= 1; i--)); do
