@@ -14,7 +14,7 @@ echo -e "${GREEN}===============================================================
 echo -e "${GREEN}========================= . Info 081-947-215-703 ===========================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${RED}${NC}"
-echo -e "${GREEN} Apakah anda ingin melanjutkan? (y/n)${NC}"
+echo -e "${GREEN} Apakah anda ingin melanjutkan bro? (y/n)${NC}"
 read confirmation
 
 if [ "$confirmation" != "y" ]; then
