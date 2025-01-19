@@ -19,7 +19,7 @@ read confirmation
 
 if [ "$confirmation" != "y" ]; then
     echo -e "${GREEN}Install dibatalkan..${NC}"
-   
+    /tmp/install.sh
     exit 1
 fi
 for ((i = 5; i >= 1; i--)); do
