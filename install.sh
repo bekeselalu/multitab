@@ -21,8 +21,8 @@ echo -e "${GREEN} Apakah anda ingin melanjutkan bro? (y/n)${NC}"
 read confirmation
 
 if [ "$confirmation" != "y" ]; then
-    echo -e "${GREEN}Install dibatalkan..${NC}"
-    sudo /tmp/install.sh
+    echo -e "${GREEN}Install dibatalkan. Tidak ada perubahan dalam ubuntu server anda.${NC}"
+    /tmp/install.sh
     exit 1
 fi
 for ((i = 5; i >= 1; i--)); do
