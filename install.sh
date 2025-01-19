@@ -129,11 +129,14 @@ for ((i = 5; i >= 1; i--)); do
 	sleep 1
     echo "Lanjut Install Parameter $i. Tekan ctrl+c untuk membatalkan"
 done
+
+cd
+sudo mongodump --db=genieacs --out genieacs-backup
+#Sukses
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}================== VIRTUAL PARAMETER BERHASIL DI INSTALL ===================${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
 echo -e "${GREEN}=================== Informasi: Whatsapp 081-947-215-703 ====================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
-cd -
-sudo mongorestore --db=genieacs --drop genieacs
+cd
 unzip multitab.zip -d /usr/lib/node_modules/
