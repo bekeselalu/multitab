@@ -27,7 +27,7 @@ if [ "$confirmation" != "y" ]; then
 fi
 for ((i = 5; i >= 1; i--)); do
 	sleep 1
-    echo "Lanjut Bos... $i. Tekan ctrl+c untuk membatalkan"
+    echo "Lanjut Bos $i. Tekan ctrl+c untuk membatalkan"
 done
 
 #MongoDB
